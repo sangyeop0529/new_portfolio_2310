@@ -1,0 +1,10 @@
+block__element--modifier
+
+.card
+.card__img
+.card__title
+.card__desc
+.card__button
+
+.card--dark
+.card__button--blue
