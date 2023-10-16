@@ -31,7 +31,7 @@
                 <img class="header__logo__img" src="images/favicon.ico" alt="logo" />
                 <h1 class="header__logo__title"><a href="#">Dell</a></h1>
             </div>
-            <nav>
+            <nav class="header__nav">
                 <ul class="header__menu">
                     <li><a class="header__menu__item active" href="#home">Home</a></li>
                     <li><a class="header__menu__item" href="#about">About</a></li>
@@ -76,16 +76,20 @@
                     </li>
                 </ul>
                 <ul class="jobs">
-                    <li class="job"><img src="./images/jobs/google.png" alt="google logo" /></li>
-                    <div>
-                        <p class="job__name">Google as Senior Software Engineer</p>
-                        <p class="job__period">2019 Oct - Unitil now</p>
-                    </div>
-                    <li class="job"><img src="./images/jobs/samsung.png" alt="google logo" /></li>
-                    <div>
-                        <p class="job__name">Google as Senior Software Engineer</p>
-                        <p class="job__period">2019 Oct - Unitil now</p>
-                    </div>
+                    <li class="job">
+                        <img src="./images/jobs/google.png" alt="google logo" />
+                        <div>
+                            <p class="job__name">Google as Senior Software Engineer</p>
+                            <p class="job__period">2019 Oct - Unitil now</p>
+                        </div>
+                    </li>
+                    <li class="job">
+                        <img src="./images/jobs/samsung.png" alt="google logo" />
+                        <div>
+                            <p class="job__name">Google as Senior Software Engineer</p>
+                            <p class="job__period">2019 Oct - Until now</p>
+                        </div>
+                    </li>
                 </ul>
             </section>
             <!-- Skills -->
@@ -270,22 +274,24 @@
             </section>
             <!-- Arrow up -->
             <aside>
-                <a href="#home" title="back to top"><i class="fa-solid fa-arrow-up"></i></a>
+                <a class="arrow-up" href="#home" title="back to top"><i class="fa-solid fa-arrow-up"></i></a>
             </aside>
         </main>
         <!-- Footer -->
         <footer id="contact" class="section">
-            <h2 class="title">Let&#39;s talk</h2>
-            <p class="description">dream.coder.ellis@gmail.com</p>
-            <ul>
-                <li>
-                    <a href="#" title="my github link" target="_blank"><i class="fa-brands fa-github"></i></a>
-                </li>
-                <li>
-                    <a href="#" title="my linkedin link" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                </li>
-            </ul>
-            <p>©Dream Coding Ellie - All rights reserved</p>
+            <div class="max-container">
+                <h2 class="title">Let&#39;s talk</h2>
+                <p class="description">dream.coder.ellis@gmail.com</p>
+                <ul class="contact__links">
+                    <li>
+                        <a class="contact__link" href="#" title="my github link" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li>
+                        <a class="contact__link" href="#" title="my linkedin link" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                </ul>
+                <p>©Dream Coding Ellie - All rights reserved</p>
+            </div>
         </footer>
     </body>
 </html>
