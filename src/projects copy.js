@@ -28,3 +28,5 @@ categories.addEventListener("click", (event) => {
         projectsContainer.classList.remove("anim-out");
     }, 250);
 });
+
+// test
